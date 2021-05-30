@@ -1,0 +1,50 @@
+div {
+    border: 0.5px solid black;
+}
+
+.contents-container{
+    /* border: 5px solid blue; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    /* border: 3px solid red; */
+    height: 100vh;
+}
+
+.editorInfo-container{
+    height: 50%;
+    background-color: cornflowerblue;
+}
+
+.data-container{
+    height: 50%;
+    background-color: burlywood;
+}
+
+.editorinfo-container-item{
+    height: 50%;
+}
+
+.data-container-item{
+    height: 100%;
+}
+
+@media (min-width: 768px){
+    .contents-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contents-container{
+        background-color: cornflowerblue;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+}
+
+
