@@ -5,7 +5,7 @@ interface EditorProps {
 }
 
 const Editor: React.SFC<EditorProps> = ({ name }) => (
-  <div className="editor-component-container editorinfo-container-item">
+  <div className="grid-root-container-item">
     <b>{name}</b>
   </div>
 );

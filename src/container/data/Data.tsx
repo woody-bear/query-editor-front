@@ -5,7 +5,7 @@ interface DataProps {
 }
 
 const Data: React.SFC<DataProps> = ({ name }) => (
-  <div className="data-component-container data-container-item">
+  <div className="grid-root-container-item">
     <b>{name}</b>
   </div>
 );

@@ -5,7 +5,7 @@ interface NavigationProps {
 }
 
 const Navigation: React.SFC<NavigationProps> = ({ name }) => (
-  <div className="naviataion-component-container">
+  <div className="grid-root-container-item">
     <b>{name}</b>
   </div>
 );

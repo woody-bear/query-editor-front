@@ -10,24 +10,13 @@ import './assets/css/App.css'
 class App extends React.Component {
   public render() {
     return (
-      <div className="root-container">
+      <div className="grid-root-container">
         <Header name="header" />
-        <div className="contents-container">
-          <Navigation name="navigation" />
-          <div className="main-content">
-            <div className="editorInfo-container">
-              <Editor name="editor" />
-              <Info name="info" />
-            </div>
-            <div className="data-container">
-              <Data name="data" />
-            </div>
-          </div>
-          
-          
-          {/* <Counter startNumber={5} /> */}
-        </div>
-        
+        <Navigation name="navigation" />
+        <Editor name="editor" />
+        <Info name="info" />
+        <Data name="data" />
+        {/* <Counter startNumber={5} /> */}
       </div> 
     );
   }

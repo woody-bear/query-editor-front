@@ -5,7 +5,7 @@ interface InfoProps {
 }
 
 const Info: React.SFC<InfoProps> = ({ name }) => (
-  <div className="info-component-container editorinfo-container-item">
+  <div className="grid-root-container-item">
     <b>{name}</b>
   </div>
 );

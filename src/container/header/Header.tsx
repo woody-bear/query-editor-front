@@ -5,7 +5,7 @@ interface HeaderProps {
 }
 
 const Header: React.SFC<HeaderProps> = ({ name }) => (
-  <div className="header-component-container">
+  <div className="grid-root-container-item">
     <b>{name}</b>
   </div>
 );
