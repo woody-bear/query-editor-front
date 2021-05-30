@@ -26,6 +26,11 @@
     flex-shrink: 1;
     flex-basis: 10rem;
 }
+
+.grid-root-container-item:nth-child(3) .editor{
+
+}
+
 .grid-root-container-item:nth-child(4){
     flex-grow: 1;
     flex-shrink: 1;
@@ -57,17 +62,24 @@
     }
     .grid-root-container-item:nth-child(3){
         grid-column: 7 / 28;
-        grid-row: 3 / 22;
+        grid-row: 3 / 25;
+    }
+
+    .grid-root-container-item:nth-child(3) .editor{
+        height: 100%;
+        width: 100%;
+        font-size: 10rem;
     }
     .grid-root-container-item:nth-child(4){
         grid-column: 28 / 41;
-        grid-row: 3 / 22;
+        grid-row: 3 / 25;
     }
     
     .grid-root-container-item:nth-child(5){
         grid-column: 7 / 41;
-        grid-row: 22 / 41;
-    }   
+        grid-row: 25 / 41;
+    }
+    
 }
 
 

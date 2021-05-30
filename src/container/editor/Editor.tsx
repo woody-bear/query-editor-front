@@ -6,7 +6,7 @@ interface EditorProps {
 
 const Editor: React.SFC<EditorProps> = ({ name }) => (
   <div className="grid-root-container-item">
-    <b>{name}</b>
+    <div id="monaco" className="editor"></div>
   </div>
 );
 
