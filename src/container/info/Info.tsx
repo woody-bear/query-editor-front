@@ -4,7 +4,7 @@ interface InfoProps {
   name: string;
 }
 
-const Info: React.SFC<InfoProps> = ({ name }) => (
+const Info = ({ name }: InfoProps) => (
   <div className="grid-root-container-item">
     <b>{name}</b>
   </div>

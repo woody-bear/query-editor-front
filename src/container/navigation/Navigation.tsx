@@ -4,7 +4,7 @@ interface NavigationProps {
   name: string;
 }
 
-const Navigation: React.SFC<NavigationProps> = ({ name }) => (
+const Navigation = ({ name }: NavigationProps) => (
   <div className="grid-root-container-item">
     <b>{name}</b>
   </div>
